@@ -87,10 +87,10 @@ Let's explore a solution written in Java.
 class FizzBuzz {
 
     public static void main(String[] args) {
-        
+
         int i = 1;
-        while (i < 100) {
-            i ++;
+        while ( i < 100) {
+            i++;
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
             boolean divisibleBy5 = i % 5 == 0;
@@ -127,7 +127,7 @@ The program may take a second to compile and run, but then you should see that i
 this Fizz Buzz problem. Note: you may also need to set your project SDK before you can run your code. There will
 be a warning message in IntelliJ if this is the case and you can click the message to set up the SDK.
 
-You may never have seen Java before, but we bet you can puzzle out how it works.
+You may never have seen Java before, but we bet you can puzzle out how it will work.
 
 ## Task 1: Understanding some Java syntax
 
